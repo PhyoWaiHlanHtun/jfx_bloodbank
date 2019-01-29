@@ -6,7 +6,7 @@
 - Database MySQL
 - jfoenix-8.0.5
 - mysql-connector-java-5.1.42-bin
-- user name and password is admin :P
+- user name and password is admin :stuck_out_tongue_winking_eye:
 
 - FB : https://www.facebook.com/mr.phyowaihlanhtun
 - Developer : PhyoWaiHlanHtun(Cryptonym) 
