@@ -15,6 +15,10 @@ import javafx.stage.Stage;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+// FB : https://www.facebook.com/mr.phyowaihlanhtun
+// Developer : PhyoWaiHlanHtun(Cryptonym)
+// Contact : phyowaihlanhtun@gmail.com
+
 public class HomePageController implements Initializable {
 
     @FXML
