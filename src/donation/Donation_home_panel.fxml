@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation.Donation_home_panelController">
+   <children>
+      <AnchorPane layoutX="85.0" layoutY="66.0" prefHeight="215.0" prefWidth="356.0" style="-fx-background-color: white; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.3), 7.0, 0.0, 0.0,0.0);">
+         <children>
+            <Pane layoutX="18.0" layoutY="156.0" prefHeight="3.0" prefWidth="320.0" style="-fx-background-color: #d50000; -fx-background-radius: 2em;" />
+            <AnchorPane prefHeight="67.0" prefWidth="356.0" style="-fx-background-color: #d50000; -fx-background-radius: 10px 10px 0px 0px;">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="39.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/ID%20Verified_48px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="206.0" layoutY="17.0" text="REGISTERED" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="59.0" layoutY="178.0" text="Total number of registered Donater">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Registered_donater" layoutX="153.0" layoutY="102.0" prefHeight="26.0" prefWidth="51.0">
+               <font>
+                  <Font name="Gadugi Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="560.0" layoutY="66.0" prefHeight="215.0" prefWidth="356.0" style="-fx-background-color: white; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.3), 7.0, 0.0, 0.0,0.0);">
+         <children>
+            <Pane layoutX="18.0" layoutY="156.0" prefHeight="3.0" prefWidth="320.0" style="-fx-background-color: #d50000; -fx-background-radius: 2em;" />
+            <AnchorPane prefHeight="67.0" prefWidth="356.0" style="-fx-background-color: #d50000; -fx-background-radius: 10px 10px 0px 0px;">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="39.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Male_48px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="206.0" layoutY="17.0" text="Gents" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="78.0" layoutY="181.0" text="Total number of male Donater">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_male" layoutX="153.0" layoutY="102.0" prefHeight="26.0" prefWidth="51.0">
+               <font>
+                  <Font name="Gadugi Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="560.0" layoutY="319.0" prefHeight="215.0" prefWidth="356.0" style="-fx-background-color: white; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.3), 7.0, 0.0, 0.0,0.0);">
+         <children>
+            <Pane layoutX="18.0" layoutY="185.0" prefHeight="3.0" prefWidth="320.0" style="-fx-background-color: #d50000; -fx-background-radius: 2em;" />
+            <AnchorPane prefHeight="67.0" prefWidth="356.0" style="-fx-background-color: #d50000; -fx-background-radius: 10px 10px 0px 0px;">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="39.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Info_52px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="206.0" layoutY="17.0" text="Info" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="61.0" layoutY="88.0" prefHeight="89.0" prefWidth="235.0" text="Total number of registered DonaterTotal number of registered DonaterTotal number of registered Donater" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="85.0" layoutY="319.0" prefHeight="215.0" prefWidth="356.0" style="-fx-background-color: white; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.3), 7.0, 0.0, 0.0,0.0);">
+         <children>
+            <Pane layoutX="18.0" layoutY="156.0" prefHeight="3.0" prefWidth="320.0" style="-fx-background-color: #d50000; -fx-background-radius: 2em;" />
+            <AnchorPane prefHeight="67.0" prefWidth="356.0" style="-fx-background-color: #d50000; -fx-background-radius: 10px 10px 0px 0px;">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="39.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Female_48px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="206.0" layoutY="17.0" text="Ladies" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="71.0" layoutY="181.0" text="Total number of female Donater">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_female" layoutX="153.0" layoutY="102.0" prefHeight="26.0" prefWidth="51.0">
+               <font>
+                  <Font name="Gadugi Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

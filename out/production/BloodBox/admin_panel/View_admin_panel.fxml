@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_panel.View_adminController">
+   <children>
+      <Label layoutX="396.0" layoutY="5.0" text="View Admin List" textFill="#d50000" AnchorPane.leftAnchor="396.0" AnchorPane.rightAnchor="388.0">
+         <font>
+            <Font name="Gadugi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="88.0" text="Search Admins" textFill="#d50000">
+         <font>
+            <Font name="Gadugi Bold" size="17.0" />
+         </font>
+      </Label>
+      <HBox layoutX="174.0" layoutY="84.0" prefHeight="28.0" prefWidth="237.0">
+         <children>
+            <TextField fx:id="searchTF" prefHeight="25.0" prefWidth="205.0" promptText="by name or address or ph no" style="-fx-background-color: transprent;" />
+            <Button mnemonicParsing="false" onAction="#search_action" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Search_20px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Pane layoutX="174.0" layoutY="108.0" prefHeight="1.0" prefWidth="200.0" style="-fx-background-color: black;" />
+      <Button layoutX="465.0" layoutY="84.0" mnemonicParsing="false" onAction="#refresh_action" prefHeight="28.0" prefWidth="92.0" style="-fx-background-color: #d50000;" text="Refresh" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Synchronize_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="593.0" layoutY="83.0" mnemonicParsing="false" onAction="#delete_action" prefHeight="28.0" prefWidth="92.0" style="-fx-background-color: #d50000 #d50000;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Trash%20Can_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="719.0" layoutY="83.0" mnemonicParsing="false" onAction="#custom_action" prefHeight="28.0" prefWidth="92.0" style="-fx-background-color: #d50000;" text="Custom" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Info_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="843.0" layoutY="83.0" mnemonicParsing="false" onAction="#detail_action" prefHeight="28.0" prefWidth="92.0" style="-fx-background-color: #d50000;" text="Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/List%20View_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="adminTV" layoutX="42.0" layoutY="153.0" prefHeight="433.0" prefWidth="900.0">
+        <columns>
+            <TableColumn fx:id="idcolumn" maxWidth="129.0" minWidth="64.0" text="Admin ID" />
+          <TableColumn fx:id="adminnamecolumn" maxWidth="194.0" minWidth="129.0" prefWidth="185.0" text="Admin name" />
+            <TableColumn fx:id="gendercolumn" maxWidth="142.0" minWidth="129.0" prefWidth="142.0" text="Gender" />
+            <TableColumn fx:id="phonecolumn" maxWidth="168.0" minWidth="129.0" prefWidth="148.0" text="Phone" />
+            <TableColumn fx:id="datecolumn" maxWidth="154.0" minWidth="103.0" prefWidth="151.0" text="BirthDate" />
+            <TableColumn fx:id="addresscolumn" maxWidth="210.0" minWidth="129.0" prefWidth="192.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

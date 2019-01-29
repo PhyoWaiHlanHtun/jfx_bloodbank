@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="slide" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0" spacing="3.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transfer.SliderController">
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+   <children>
+      <AnchorPane prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="65.0" layoutY="8.0" text="Register" textFill="#d50000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button accessibleText="register" layoutX="26.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" textFill="#06490a" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="5.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Purchase%20Order_32px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="400.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="65.0" layoutY="8.0" text="hospital" textFill="#d50000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button accessibleText="hospital" layoutX="34.0" layoutY="3.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" textFill="#06490a" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="5.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Hospital_32px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="438.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="65.0" layoutY="8.0" text="Patient" textFill="#d50000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button accessibleText="patient" layoutX="5.0" layoutY="4.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" textFill="#06490a" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="5.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Syringe_32px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="514.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="65.0" layoutY="8.0" text="Exit" textFill="#d50000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button accessibleText="exit" layoutX="26.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" textFill="#06490a" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="5.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Close%20Window_24px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

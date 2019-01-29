@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="325.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation.ShowDonationController">
+   <children>
+      <Label layoutX="97.0" layoutY="14.0" text="Donation Records">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="70.0" text="Donater ID         -">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="123.0" text="Blood type         -">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="169.0" text="Donate Times    -">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="212.0" text="Donate Dates     -">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_donaterId" alignment="CENTER" layoutX="168.0" layoutY="70.0" prefHeight="20.0" prefWidth="182.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_bloodType" alignment="CENTER" layoutX="168.0" layoutY="123.0" prefHeight="20.0" prefWidth="182.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_donateTimes" alignment="CENTER" layoutX="168.0" layoutY="169.0" prefHeight="20.0" prefWidth="182.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lv_donateDates" layoutX="189.0" layoutY="212.0" prefHeight="97.0" prefWidth="140.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></ListView>
+   </children>
+</AnchorPane>

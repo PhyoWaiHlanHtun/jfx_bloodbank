@@ -1,0 +1,32 @@
+.exist{
+    -fx-background-color:transparent;
+    -fx-text-fill:black;
+}
+.exist:hover{
+    -fx-background-color:red;
+    -fx-text-fill:white;
+}
+.jfx-hamburger StackPane{
+    -fx-background-color: white;
+    -fx-background-radius:2px;
+}
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color:#d50000;
+}
+.update{
+    -fx-text-fill:#fff;
+    -fx-border-width:2px;
+    -fx-border-color:#b50000;
+    -fx-border-radius:7px;
+    -fx-background-color:#b50000;
+    -fx-background-radius:7px;
+}
+.update:hover{
+    -fx-background-color:transparent;
+    -fx-text-fill:#b50000;
+}
+.homepage{
+    -fx-background-image:url('photo2.png');
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: 1000 650;
+}

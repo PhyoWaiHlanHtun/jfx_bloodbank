@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="451.0" prefWidth="489.0" stylesheets="@../resources/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation.DetailsController">
+   <children>
+      <AnchorPane prefHeight="58.0" prefWidth="489.0" style="-fx-background-color: #b50000;">
+         <children>
+            <Label layoutX="61.0" layoutY="13.0" prefHeight="32.0" prefWidth="117.0" text="Details" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi Bold" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="12.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Info_52px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="17.0" layoutY="102.0" text="Donate ID">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="172.0" text="Name">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="382.0" text="Gender">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="242.0" text="NRC">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="312.0" text="DOB">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="242.0" text="Blood Type">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="312.0" text="Donate Date">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="172.0" text="Phone No.">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="102.0" text="Address">
+         <font>
+            <Font name="Gadugi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Pane layoutX="84.0" layoutY="120.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="84.0" layoutY="190.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="84.0" layoutY="260.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="84.0" layoutY="330.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="84.0" layoutY="400.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="332.0" layoutY="121.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="332.0" layoutY="189.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="332.0" layoutY="259.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Pane layoutX="332.0" layoutY="330.0" prefHeight="1.0" prefWidth="153.0" style="-fx-background-color: #000;" />
+      <Label fx:id="lb_donaterID" layoutX="84.0" layoutY="103.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_name" layoutX="84.0" layoutY="173.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_nrc" layoutX="84.0" layoutY="243.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_dob" layoutX="84.0" layoutY="313.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_gender" layoutX="84.0" layoutY="383.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_address" layoutX="332.0" layoutY="103.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_phNo" layoutX="332.0" layoutY="173.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_bloodType" layoutX="332.0" layoutY="243.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+      <Label fx:id="lb_donateDate" layoutX="332.0" layoutY="313.0" prefHeight="17.0" prefWidth="153.0" text="Label" />
+   </children>
+</AnchorPane>
