@@ -4,6 +4,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
 
+// FB : https://www.facebook.com/mr.phyowaihlanhtun
+// Developer : PhyoWaiHlanHtun(Cryptonym)
+// Contact : phyowaihlanhtun@gmail.com
+
+
 public class SetNode {
     public SetNode(StackPane root, String file_path) {
         Node node;
