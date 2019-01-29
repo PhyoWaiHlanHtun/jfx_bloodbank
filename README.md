@@ -1,4 +1,5 @@
 ## JavaFx Blood Donation Management System(For Education Purposes Only)
+### Desktop Application (Version 1.0)
 
 - Java Version 8
 - JavaFx Version 8
