@@ -10,6 +10,10 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class Main extends Application {
+    
+// FB : https://www.facebook.com/mr.phyowaihlanhtun
+// Developer : PhyoWaiHlanHtun(Cryptonym)
+// Contact : phyowaihlanhtun@gmail.com
 
     @Override
     public void start(Stage primaryStage) throws Exception{
