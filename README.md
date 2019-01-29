@@ -10,4 +10,4 @@
 - Developer : PhyoWaiHlanHtun(Cryptonym) 
 - Contact : phyowaihlanhtun@gmail.com
 
-:sunglasses: Happy Coding Dude!!
+:sunglasses: Happy Coding Dude!! :sunglasses:
